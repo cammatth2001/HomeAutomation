@@ -1,21 +1,14 @@
-
-
-
-# HomeAutomation
-Capstone Project for HomeAutomation
-
-
-
+<center>
 
 ## Capstone Progress Reports
 
-
+</center>
 
 |Week ending 2/1 Progress Report|Status
 |-----                          |-----
 |1/30                           |Recieved Parts:ESP8266 MicroController, Cabling, Relay Switches, Development boards for testing
-|1/31                           |Started initial research for programming ESP8266 for WiFi setup :relieved:
-|2/1                            |Setup WiFi on ESP8266 and was able to control LED on and off through web browser :relieved:
+|1/31                           |Started initial research for programming ESP8266 for WiFi setup
+|2/1                            |Setup WiFi on ESP8266 and was able to control LED on and off through web browser
 | | 
 
 |Week ending 2/8 Progress Report|Status
