@@ -20,21 +20,21 @@ Capstone Project for HomeAutomation
 
 |Week ending 2/8 Progress Report|Status
 |-----                          |-----
-|2/2                            |
-|2/3                            |
-|2/4                            |
-|2/5                            |
-|2/6                            |
-|2/7                            |
+|2/2                            |Research
+|2/3                            |Research
+|2/4                            |Research
+|2/5                            |Research
+|2/6                            |Research
+|2/7                            |Research
 
 |Week ending 2/15 Progress Report|Status
 |-----                          |-----
-|2/9                           |
-|2/10                           |
-|2/11                           |
-|2/12                           |
-|2/13                           |
-|2/14                           |
+|2/9                            |Research
+|2/10                           |Python Setup
+|2/11                           |Flask Research
+|2/12                           |HTML/CSS
+|2/13                           |Basic WebSite Setup
+|2/14                           |Multipage Website text base
 
 |Week ending 2/22 Progress Report|Status
 |-----                          |-----
