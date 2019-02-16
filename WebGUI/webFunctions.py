@@ -7,15 +7,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("homePage.html")
 
-#def homePage():
-#    return '<center>Welcome to the homepage of your Automated Services</center>'
 
-#@app.route('/toggleOne')
+@app.route('/lighting')
 
-#def relayPressOne():
-#    return '<center>The light has been turned on</center> '
+def relayPressOne():
+    return render_template("lighting.html")
 
 if __name__ == '__main__':
     app.run()
