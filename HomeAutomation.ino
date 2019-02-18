@@ -2,42 +2,44 @@
 
 #include "ESP8266WiFi.h"
 #include "ESP8266WebServer.h"
-
-//uint8_t pin_relay = 16; //assigning pin 16 to the variable pin_led
-
-char* ssid = ""; //setting up the ssid and wifi password
-char* password = "";
-
-
+#include "WiFiManager.h"
+#include "DNSServer.h"
+uint8_t pin_relay = 4; //assigning pin 16 to the variable pin_led
 ESP8266WebServer server; //creating a server object
-
+DNSServer dnsServer;
 void setup()
-{
+{  
  //   pinMode(pin_relay, OUTPUT);  //setting the assigned pin as an output
-    WiFi.begin(ssid, password);
     Serial.begin(115200);  //setting the serial port baud rate
-    
-    while(WiFi.status()!=WL_CONNECTED)
-    {
-    delay(500);  //setting a delay while the wifi is being setup
-    Serial.print(".");
-    
-    }
+    WiFiManager wifiManager;
+ //   wifiManager.resetSettings();  //resets the settings as it will autoconnect to last known good settings
+    wifiManager.autoConnect("LightingPLC");
     Serial.print("IP Address: "); //prints the ip assigned by the router to the serial monitor
     Serial.println(WiFi.localIP());
-    
-    server.on("/",[](){server.send(200,"text/plain","I control the relay");});
-    server.on("/toggle",toggleRelay);
+   
+   // server.on("/",[](){server.send(200,"text/plain","I control the relay");});
+    server.on("/", handleRoot);
+    server.on("/toggle",HTTP_POST, toggleRelay);
     server.begin();  //starts the server process
 }
 
 void loop()
 {
+  dnsServer.processNextRequest();
   server.handleClient();
 }
 
+void handleRoot() {                         // When URI / is requested, send a web page with a button to toggle the LED
+ // digitalWrite(pin_relay, !digitalRead(pin_relay));
+  server.send(200, "text/html", "<form action=\"/toggle\" method=\"POST\"><input type=\"submit\" value=\"Toggle LED\"></form>");
+  //server.sendHeader("Location","127.0.0.1");
+  //server.send(303); 
+ // server.send(204, "");
+}
 void toggleRelay()  //the toggle function to turn the relay on and off
 {
- //   digitalWrite(pin_relay, !digitalRead(pin_relay));
+    digitalWrite(pin_relay, !digitalRead(pin_relay));
     server.send(204, "");
+    //server.sendHeader("Location","127.0.0.1");
+   // server.send(303); 
 }
