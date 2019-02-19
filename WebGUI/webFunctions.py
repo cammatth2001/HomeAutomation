@@ -9,7 +9,6 @@ app = Flask(__name__)
 def index():
     return render_template("homePage.html")
 
-
 @app.route('/lighting')
 
 def relayPressOne():
