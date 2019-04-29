@@ -71,4 +71,38 @@ Capstone Project for HomeAutomation
 |3/12                           |Integrating microcontroller into home 
 |3/13                           |Integrating microcontroller into home 
 |3/14                           |Integrating microcontroller into home 
-|
+
+|Week ending 3/22 Progress Report|Status
+|-----                          |-----
+|Week OFF Spring Break
+
+|Week ending 3/29 Progress Report|Status
+|-----                          |-----
+|Week OFF due to Work load
+
+|Week ending 4/5 Progress Report|Status
+|-----                          |-----
+|3/29                           |Testing Integration into home
+|3/30                           |Testing Integration into home
+|3/1                            |Testing Integration into home
+|4/2                            |Testing Integration into home
+|4/3                            |Testing Integration into home
+|4/4                            |Testing Integration into home
+
+|Week ending 4/12 Progress Report|Status
+|-----                          |-----
+|4/6                            |Finalizing documentation
+|4/7                            |Finalizing documentation
+|4/8                            |Finalizing documentation
+|4/9                            |Finalizing documentation
+|4/10                           |Finalizing documentation
+|4/11                           |Finalizing documentation
+
+|Week ending 4/19 Progress Report|Status
+|-----                          |-----
+|4/13                           |Working on Video Creation
+|4/14                           |Working on Video Creation
+|4/15                           |Working on Presentation
+|4/16                           |Working on Presentation 
+|4/17                           |Working on Presentation 
+|4/18                           |Finalizing Project 
