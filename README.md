@@ -38,36 +38,71 @@ Capstone Project for HomeAutomation
 
 |Week ending 2/22 Progress Report|Status
 |-----                          |-----
-|2/16                           |
-|2/17                           |
-|2/18                           |
-|2/19                           |
-|2/20                           |
-|2/21                           |
+|2/16                           |Integrating Web service to the microcontroller
+|2/17                           |Integrating Web service to the microcontroller
+|2/18                           |Integrating Web service to the microcontroller
+|2/19                           |Integrating Web service to the microcontroller
+|2/20                           |Integrating Web service to the microcontroller
+|2/21                           |Web Service is able to control the microcontroller
 
 |Week ending 3/1 Progress Report|Status
 |-----                          |-----
-|2/23                           |
-|2/24                           |
-|2/25                           |
-|2/26                           |
-|2/27                           |
-|2/28                           |
+|2/23                           |Working with Libraries for Alexa Integration
+|2/24                           |Alexa integration
+|2/25                           |Alexa integration
+|2/26                           |Alexa integration
+|2/27                           |Alexa integration
+|2/28                           |Got Alexa working with MicroController
 
 |Week ending 3/8 Progress Report|Status
 |-----                          |-----
-|3/2                            |
-|3/3                            |
-|3/4                            |
-|3/5                            |
-|3/6                            |
-|3/7                            |
+|3/2                            |Integrating Alexa and Web services
+|3/3                            |fixing bugs with Alexa Service
+|3/4                            |fixing bugs with Alexa Service
+|3/5                            |fixing bugs with Alexa Service
+|3/6                            |fixing bugs with Alexa Service
+|3/7                            |Working on issues with Alexa and Web Server not working together
 
 |Week ending 3/15 Progress Report|Status
 |-----                          |-----
-|3/9                            |
-|3/10                           |
-|3/11                           |
-|3/12                           |
-|3/13                           |
-|3/14                           |
+|3/9                            |Working on issues with Alexa and Web Server not working together
+|3/10                           |Working on issues with Alexa and Web Server not working together
+|3/11                           |Working on issues with Alexa and Web Server not working together
+|3/12                           |Integrating microcontroller into home 
+|3/13                           |Integrating microcontroller into home 
+|3/14                           |Integrating microcontroller into home 
+
+|Week ending 3/22 Progress Report|Status
+|-----                          |-----
+|Week OFF Spring Break
+
+|Week ending 3/29 Progress Report|Status
+|-----                          |-----
+|Week OFF due to Work load
+
+|Week ending 4/5 Progress Report|Status
+|-----                          |-----
+|3/29                           |Testing Integration into home
+|3/30                           |Testing Integration into home
+|3/1                            |Testing Integration into home
+|4/2                            |Testing Integration into home
+|4/3                            |Testing Integration into home
+|4/4                            |Testing Integration into home
+
+|Week ending 4/12 Progress Report|Status
+|-----                          |-----
+|4/6                            |Finalizing documentation
+|4/7                            |Finalizing documentation
+|4/8                            |Finalizing documentation
+|4/9                            |Finalizing documentation
+|4/10                           |Finalizing documentation
+|4/11                           |Finalizing documentation
+
+|Week ending 4/19 Progress Report|Status
+|-----                          |-----
+|4/13                           |Working on Video Creation
+|4/14                           |Working on Video Creation
+|4/15                           |Working on Presentation
+|4/16                           |Working on Presentation 
+|4/17                           |Working on Presentation 
+|4/18                           |Finalizing Project 
